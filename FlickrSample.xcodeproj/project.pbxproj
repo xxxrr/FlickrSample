@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		8C077FC61E45E4940016C31B /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C077FC51E45E4940016C31B /* ActivityIndicator.swift */; };
 		8C077FC81E460D6E0016C31B /* CommonFuntions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C077FC71E460D6E0016C31B /* CommonFuntions.swift */; };
-		8C077FCA1E46181C0016C31B /* MyPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C077FC91E46181C0016C31B /* MyPhotosViewController.swift */; };
-		8C077FCE1E473C6D0016C31B /* PhotosTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C077FCD1E473C6D0016C31B /* PhotosTabBarViewController.swift */; };
+		8C0780321E4781AE0016C31B /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07802E1E4781AE0016C31B /* GalleryViewController.swift */; };
+		8C0780331E4781AE0016C31B /* MyPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07802F1E4781AE0016C31B /* MyPhotosViewController.swift */; };
+		8C0780341E4781AE0016C31B /* PhotosTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0780301E4781AE0016C31B /* PhotosTabBarViewController.swift */; };
+		8C0780351E4781AE0016C31B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0780311E4781AE0016C31B /* ViewController.swift */; };
 		8C4E97D11E39A797008F4A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E97D01E39A797008F4A74 /* AppDelegate.swift */; };
-		8C4E97D31E39A797008F4A74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E97D21E39A797008F4A74 /* ViewController.swift */; };
 		8C4E97D61E39A797008F4A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E97D41E39A797008F4A74 /* Main.storyboard */; };
 		8C4E97D81E39A797008F4A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E97D71E39A797008F4A74 /* Assets.xcassets */; };
 		8C4E97DB1E39A797008F4A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E97D91E39A797008F4A74 /* LaunchScreen.storyboard */; };
@@ -22,7 +23,6 @@
 		8C4E98021E39AE95008F4A74 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E98011E39AE95008F4A74 /* LoginService.swift */; };
 		8C4E98051E39CC52008F4A74 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E98041E39CC52008F4A74 /* Extensions.swift */; };
 		8C4E98181E42DCAC008F4A74 /* AdaptableCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E98171E42DCAC008F4A74 /* AdaptableCollectionViewLayout.swift */; };
-		8C4E981A1E42E32B008F4A74 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E98191E42E32B008F4A74 /* GalleryViewController.swift */; };
 		8C4E981C1E4303F5008F4A74 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E981B1E4303F5008F4A74 /* PhotoCell.swift */; };
 		8C4E981E1E431A9D008F4A74 /* AdaptiveLayoutAtributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E981D1E431A9D008F4A74 /* AdaptiveLayoutAtributes.swift */; };
 		8C4E98211E432749008F4A74 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E98201E432749008F4A74 /* Photo.swift */; };
@@ -49,11 +49,12 @@
 /* Begin PBXFileReference section */
 		8C077FC51E45E4940016C31B /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityIndicator.swift; path = ../ViewModels/ActivityIndicator.swift; sourceTree = "<group>"; };
 		8C077FC71E460D6E0016C31B /* CommonFuntions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFuntions.swift; sourceTree = "<group>"; };
-		8C077FC91E46181C0016C31B /* MyPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPhotosViewController.swift; sourceTree = "<group>"; };
-		8C077FCD1E473C6D0016C31B /* PhotosTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTabBarViewController.swift; sourceTree = "<group>"; };
+		8C07802E1E4781AE0016C31B /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		8C07802F1E4781AE0016C31B /* MyPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPhotosViewController.swift; sourceTree = "<group>"; };
+		8C0780301E4781AE0016C31B /* PhotosTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTabBarViewController.swift; sourceTree = "<group>"; };
+		8C0780311E4781AE0016C31B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C4E97CD1E39A797008F4A74 /* FlickrSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4E97D01E39A797008F4A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C4E97D21E39A797008F4A74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C4E97D51E39A797008F4A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C4E97D71E39A797008F4A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C4E97DA1E39A797008F4A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,7 +70,6 @@
 		8C4E98031E39CAB6008F4A74 /* Sample1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample1-Bridging-Header.h"; sourceTree = "<group>"; };
 		8C4E98041E39CC52008F4A74 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../Extensions.swift; sourceTree = "<group>"; };
 		8C4E98171E42DCAC008F4A74 /* AdaptableCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdaptableCollectionViewLayout.swift; sourceTree = "<group>"; };
-		8C4E98191E42E32B008F4A74 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		8C4E981B1E4303F5008F4A74 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		8C4E981D1E431A9D008F4A74 /* AdaptiveLayoutAtributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdaptiveLayoutAtributes.swift; sourceTree = "<group>"; };
 		8C4E98201E432749008F4A74 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
@@ -101,15 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8C077FCF1E4773DA0016C31B /* Controllers */ = {
+		8C07802D1E4781AE0016C31B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8C077FCD1E473C6D0016C31B /* PhotosTabBarViewController.swift */,
-				8C4E97D21E39A797008F4A74 /* ViewController.swift */,
-				8C4E98191E42E32B008F4A74 /* GalleryViewController.swift */,
-				8C077FC91E46181C0016C31B /* MyPhotosViewController.swift */,
+				8C07802E1E4781AE0016C31B /* GalleryViewController.swift */,
+				8C07802F1E4781AE0016C31B /* MyPhotosViewController.swift */,
+				8C0780301E4781AE0016C31B /* PhotosTabBarViewController.swift */,
+				8C0780311E4781AE0016C31B /* ViewController.swift */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		8C4E97C41E39A797008F4A74 = {
@@ -135,7 +135,7 @@
 		8C4E97CF1E39A797008F4A74 /* FlickrSample */ = {
 			isa = PBXGroup;
 			children = (
-				8C077FCF1E4773DA0016C31B /* Controllers */,
+				8C07802D1E4781AE0016C31B /* Controllers */,
 				8C4E982A1E444340008F4A74 /* Utilities */,
 				8C4E981F1E432735008F4A74 /* Model */,
 				8C4E98161E42DC2E008F4A74 /* ViewHelpers */,
@@ -342,20 +342,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C4E98051E39CC52008F4A74 /* Extensions.swift in Sources */,
+				8C0780351E4781AE0016C31B /* ViewController.swift in Sources */,
 				8C077FC61E45E4940016C31B /* ActivityIndicator.swift in Sources */,
-				8C4E981A1E42E32B008F4A74 /* GalleryViewController.swift in Sources */,
+				8C0780341E4781AE0016C31B /* PhotosTabBarViewController.swift in Sources */,
 				8C4E981E1E431A9D008F4A74 /* AdaptiveLayoutAtributes.swift in Sources */,
 				8C4E98001E39A825008F4A74 /* NetworkManager.swift in Sources */,
+				8C0780321E4781AE0016C31B /* GalleryViewController.swift in Sources */,
 				8C4E98211E432749008F4A74 /* Photo.swift in Sources */,
-				8C077FCA1E46181C0016C31B /* MyPhotosViewController.swift in Sources */,
-				8C4E97D31E39A797008F4A74 /* ViewController.swift in Sources */,
+				8C0780331E4781AE0016C31B /* MyPhotosViewController.swift in Sources */,
 				8C4E981C1E4303F5008F4A74 /* PhotoCell.swift in Sources */,
 				8C4E97D11E39A797008F4A74 /* AppDelegate.swift in Sources */,
 				8C4E98021E39AE95008F4A74 /* LoginService.swift in Sources */,
 				8C4E98181E42DCAC008F4A74 /* AdaptableCollectionViewLayout.swift in Sources */,
 				8C4E98291E4438A1008F4A74 /* PhotosServiceManager.swift in Sources */,
 				8C077FC81E460D6E0016C31B /* CommonFuntions.swift in Sources */,
-				8C077FCE1E473C6D0016C31B /* PhotosTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
